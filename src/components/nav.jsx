@@ -11,7 +11,7 @@ function Nav() {
                 <li className="nav-menu-item"><a className="nav-link nav-menu-link_active" href="#sobreNosotros">Sobre Nosotros</a></li>
                 <div>
                 <img
-                    src={LogoStone}
+                    src="https://i.imgur.com/1H7vDNH.png"
                     className='logo'
                     alt='logo de Stone' />
                 </div>
