@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5px;
+}
+
+.App {
+  background-color: #2A292A;
+  height: 100vh;
+}
+
+.conteiner {
+
+height: auto;
+display: flex;
+flex-wrap: nowrap;
+}
+
+.intro {
+  border-bottom: 3px solid #815b44;
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.nombre {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  user-select: none;
+  margin-left: 30px;
+}
+
+.nombre:hover {
+  
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 300px;
+}
+
+.nombre-uno:hover {
+  font-size: 200px;
+}
+
+.nombre-uno {
+  font-size: 126rem;
+  color: rgb(240, 240, 240);
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+  margin-bottom: 130px;
+  z-index: 2;
+}
+
+.nombre-dos {
+  font-size: 73rem;
+  color:#c59c70;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  z-index: 1;
+}
+.nombre-dos:hover {
+  font-size: 120px;
+}
+
+.nombre-general:hover {
+  transition: 1s;
+  text-shadow: 0 0 20px #c29454, 0 0 20px #c29454, 0 0 20px #c29454;
+  
+}
+
+.container-descripcion {
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border-bottom: 3px solid #815b44;
+}
+
+.descripcion {
+  font-size: 50px;
+  color: aliceblue;
+  font-style: italic;
+  margin: 0 40px;
+  user-select: none;
+}
+
+span {
+  font-size: 50px;
+  background-color: #815b44;
+  color: aliceblue;
+  font-style: italic;
+}
